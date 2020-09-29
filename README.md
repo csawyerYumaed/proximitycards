@@ -30,7 +30,7 @@ def prox_to_dec(p):
 	return int('{:X}{:04X}101A'.format(int(n1), int(n2)), 16)
   ```
 
-
+The 101A part may be specific to Easy Clocking, your card provider may use a different hex code there.
 
 Hope this helps.
 
