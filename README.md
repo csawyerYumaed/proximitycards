@@ -1,6 +1,8 @@
 # proximitycards
 ProximityCards algorithm for converting between diff formats.
 
+
+
 There are known to me 2 different forms of numbers for proximity cards. There are online calculators like: https://btrockford.com/security/card-access-control/proximity-card-calculator/  But all the explanations that talk about how this works are not very practical.
 
 This is the practical conversion, to let you move on with life, in Python:
@@ -32,5 +34,4 @@ def prox_to_dec(p):
 
 Hope this helps.
 
-Converts a facility code formatted number to full or serialized card number
-For use with 125KHz Wiegand 26 Bit ISO Cards and Tags
+PR's for other languages welcome.
