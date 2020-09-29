@@ -3,7 +3,7 @@ ProximityCards algorithm for converting between diff formats.
 
 There are known to me 2 different forms of numbers for proximity cards. There are online calculators like: https://btrockford.com/security/card-access-control/proximity-card-calculator/  But all the explanations that talk about how this works are not very practical.
 
-This is the practical conversion, to let you move on with life:
+This is the practical conversion, to let you move on with life, in Python:
 
 ```python
 def dec_to_prox(d):
